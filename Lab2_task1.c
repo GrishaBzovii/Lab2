@@ -10,9 +10,9 @@ int main() {
     scanf("%d", &b);
     
     // Обчислення
-    const int suma = a + b;
-    const int tsila_chastyna = (int)floor((double)a / b);
-    const int potroienyi_dobutok = 3 * a * b;                  
+    int suma = a + b;
+    int tsila_chastyna = (int)floor((double)a / b);
+    int potroienyi_dobutok = 3 * a * b;                  
 
     // Виведення
     printf("Сума: %d\n", suma);
